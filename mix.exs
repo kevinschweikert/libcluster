@@ -41,7 +41,8 @@ defmodule Cluster.Mixfile do
       {:dialyxir, "~> 1.0", only: :dev, runtime: false},
       {:exvcr, "~> 0.11", only: :test, runtime: false},
       {:jason, "~> 1.1"},
-      {:telemetry, "~> 1.3"}
+      {:telemetry, "~> 1.3"},
+      {:mndp, "~> 0.1", runtime: false}
     ]
   end
 
